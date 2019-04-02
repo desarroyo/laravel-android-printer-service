@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('/printer', 'Controller@print');
+
 Route::get('/', function () {
     return view('welcome');
 });
